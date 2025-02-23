@@ -61,13 +61,13 @@ function App() {
   return (
     <>
       <CustomNavbar cart={cart} />
-      {location.pathname === '/' && <ProductCarousel />}
-      {location.pathname === '/' && <AboutSection />}
+      {location.pathname === '/app' && <ProductCarousel />}
+      {location.pathname === '/app' && <AboutSection />}
       {location.pathname === '/guarantee' && <Guarantee />}
       {location.pathname === '/contact' && <Contact />}
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<ProductList addToCart={addToCart} />} />
+        <Route path="/app" element={<ProductList addToCart={addToCart} />} />
         <Route path="/products" element={<ProductList addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
         <Route path="/product/:id" element={<ProductDetail products={products} addToCart={addToCart} />} />
