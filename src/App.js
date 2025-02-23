@@ -3,6 +3,7 @@ import { useParams, Routes, Route, Link, useLocation, useNavigate,Navigate } fro
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './legler_miele_logo100.png';
 import { Modal, Button, Navbar, Container, Carousel } from 'react-bootstrap';
+import AdminPanel from "./components/AdminPanel";
 import './App.css';
 
 const images = {
@@ -73,6 +74,7 @@ function App() {
         <Route path="/products" element={<ProductList addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
         <Route path="/product/:id" element={<ProductDetail products={products} addToCart={addToCart} />} />
+        <Route path="/admin" element={<AdminPanel />} />
       </Routes>
 
       <Footer /> {/* Footer hozzáadása */}
