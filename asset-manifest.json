@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/legler/static/css/main.75f8a30b.css",
+    "main.js": "/legler/static/js/main.3e4d4ad4.js",
+    "static/js/453.a6a97343.chunk.js": "/legler/static/js/453.a6a97343.chunk.js",
+    "static/media/infoblokk_kedv_final_CMYK_ERFA.jpg": "/legler/static/media/infoblokk_kedv_final_CMYK_ERFA.982ef70f527fc8a1437a.jpg",
+    "static/media/slide_show_szerviz.jpg": "/legler/static/media/slide_show_szerviz.047f03167010b259e818.jpg",
+    "static/media/slide_show_miert_miele.jpg": "/legler/static/media/slide_show_miert_miele.9a7ced50b7a01f56e3b2.jpg",
+    "static/media/slide_show_gepek.jpg": "/legler/static/media/slide_show_gepek.0840d52ebdf51dd64797.jpg",
+    "static/media/6I8B0457-500x692.jpg": "/legler/static/media/6I8B0457-500x692.444505d0d8a4b034bb2f.jpg",
+    "static/media/legler_miele_logo100.png": "/legler/static/media/legler_miele_logo100.f8a77c050047544e5808.png",
+    "static/media/miele-cm-6160-2.webp": "/legler/static/media/miele-cm-6160-2.85559a564055660d0c5b.webp",
+    "index.html": "/legler/index.html",
+    "main.75f8a30b.css.map": "/legler/static/css/main.75f8a30b.css.map",
+    "main.3e4d4ad4.js.map": "/legler/static/js/main.3e4d4ad4.js.map",
+    "453.a6a97343.chunk.js.map": "/legler/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75f8a30b.css",
+    "static/js/main.3e4d4ad4.js"
+  ]
+}
