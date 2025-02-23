@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './legler_miele_logo100.png';
-import moso from './legler_miele_logo100.png';
 import { Modal, Button, Navbar, Container, Carousel } from 'react-bootstrap';
 import './App.css';
 
