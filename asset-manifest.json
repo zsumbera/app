@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/legler/static/css/main.75f8a30b.css",
-    "main.js": "/legler/static/js/main.3e4d4ad4.js",
+    "main.js": "/legler/static/js/main.69c65432.js",
     "static/js/453.a6a97343.chunk.js": "/legler/static/js/453.a6a97343.chunk.js",
     "static/media/infoblokk_kedv_final_CMYK_ERFA.jpg": "/legler/static/media/infoblokk_kedv_final_CMYK_ERFA.982ef70f527fc8a1437a.jpg",
     "static/media/slide_show_szerviz.jpg": "/legler/static/media/slide_show_szerviz.047f03167010b259e818.jpg",
@@ -12,11 +12,11 @@
     "static/media/miele-cm-6160-2.webp": "/legler/static/media/miele-cm-6160-2.85559a564055660d0c5b.webp",
     "index.html": "/legler/index.html",
     "main.75f8a30b.css.map": "/legler/static/css/main.75f8a30b.css.map",
-    "main.3e4d4ad4.js.map": "/legler/static/js/main.3e4d4ad4.js.map",
+    "main.69c65432.js.map": "/legler/static/js/main.69c65432.js.map",
     "453.a6a97343.chunk.js.map": "/legler/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75f8a30b.css",
-    "static/js/main.3e4d4ad4.js"
+    "static/js/main.69c65432.js"
   ]
 }
