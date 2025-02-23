@@ -121,13 +121,13 @@ const CustomNavbar = ({ cart }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand as={Link} to="/legler">
+        <Navbar.Brand as={Link} to="/app">
           <img alt="logo" src={logo} style={{ maxWidth: "100%", height: "auto" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNavbar} />
         <Navbar.Collapse id="basic-navbar-nav" in={isNavOpen}>
           <div className="d-flex flex-lg-row flex-column align-items-center w-100">
-            <Link className="btn btn-light me-2 mb-2 mb-lg-0" to="/legler" onClick={() => { closeNavbar(); window.scrollTo(0, 0); }}>
+            <Link className="btn btn-light me-2 mb-2 mb-lg-0" to="/app" onClick={() => { closeNavbar(); window.scrollTo(0, 0); }}>
               Kezdőlap
             </Link>
             <Link className="btn btn-light me-2 mb-2 mb-lg-0" to="/products" onClick={() => { closeNavbar(); window.scrollTo(0, 0); }}>
