@@ -67,6 +67,8 @@ function App() {
       {location.pathname === '/contact' && <Contact />}
       <ScrollToTop />
       <Routes>
+      <Route path="/" element={<Navigate to="/app" />} />
+      <Route path="/app" element={<Home addToCart={addToCart} />} />
         <Route path="/app" element={<ProductList addToCart={addToCart} />} />
         <Route path="/products" element={<ProductList addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
@@ -109,6 +111,16 @@ function App() {
     </>
   );
 }
+function Home({ addToCart }) {
+  return (
+    <>
+      <ProductCarousel />
+      <AboutSection />
+      <ProductList addToCart={addToCart} />
+    </>
+  );
+}
+
 
 const CustomNavbar = ({ cart }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
